@@ -12,7 +12,7 @@ const warehouseRoutes = require("./routes/warehouseRoute");
 const inventoryRoutes = require("./routes/inventoryRoute");
 
 app.get("/", (_req, res) => {
-  res.send("Welcome to my API");
+  res.send("Welcome to my API...V2.0.0");
 });
 
 app.use("/warehouses", warehouseRoutes);
